@@ -1,1 +1,1 @@
-<svg width="300" height="200" version ='1.1'><polygon points="150, 18 244, 182 56, 182" fill="Yellow" /><text x='150' y='100' font-size='20' text-anchor='right' fill='blue'>Bunga Bunga</text></svg>
+<svg width="300" height="200" version ='1.1'><circle cx="150" cy="100" r="98" stroke="black" stroke-with ="2" fill="White" /><text x='150' y='100' font-size='20' text-anchor='middle' fill='Blue'>Bunga X</text></svg>

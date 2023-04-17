@@ -10,19 +10,19 @@ class Shape {
 
 class Triangle extends Shape {
   build() {
-    return `<polygon points="150, 18 244, 182 56, 182" fill="${this.color}" />`;
+    return `<polygon points="150, 18 244, 182 56, 182" stroke="black" stroke-with ="2" fill="${this.color}" />`;
   }
 }
 
 class Square extends Shape {
   build() {
-    return `<rect width="300" height="200" fill="${this.color}" />`;
+    return `<rect width="300" height="200" stroke="black" stroke-with ="2" fill="${this.color}" />`;
   }
 }
 
 class Circle extends Shape {
   build() {
-    return `<circle cx="100" cy="100" r="80" fill="${this.color}" />`;
+    return `<circle cx="150" cy="100" r="98" stroke="black" stroke-with ="2" fill="${this.color}" />`;
   }
 }
 
